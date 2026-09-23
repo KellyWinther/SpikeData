@@ -1,0 +1,11 @@
+Observation id,Observation date,Description,Observation type,Source,Total duration,Media duration (s),FPS (frame/s),Subject,Observation duration by subject by observation,EventType,Behavioral category,Modifier #1,Behavior type,Start (s),Stop (s),Duration (s),Media file name,StartFrame,EndFrame,Image file path start,Image file path stop,Comment start,Comment stop,ActualStartFrame,ActualEndFrame,indexStart,indexEnd
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,epoch,Not defined,rest start,POINT,0,0,,C:/Users/test.mp4,0,0,,,,,1,1,2500,2500
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,sleeping,Not defined,,STATE,1,5,4,C:/Users/test.mp4,56062,60158,,,,,56064,60160,2500,12500
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,epoch,Not defined,rest end ,POINT,6,6,,C:/Users/test.mp4,77723,77723,,,,,77725,77725,15000,15000
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,epoch,Not defined,novel start,POINT,7,7,,C:/Users/test.mp4,80926,80926,,,,,80928,80928,17500,17500
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,cup interaction,Not defined,,STATE,10,20,10,C:/Users/test.mp4,80933,81580,,,,,80935,81582,25000,50000
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,cup interaction,Not defined,,STATE,25,30,5,C:/Users/test.mp4,81611,82159,,,,,81613,82161,62500,75000
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,epoch,Not defined,novel end,POINT,31,31,,C:/Users/test.mp4,157561,157561,,,,,157563,157563,77500,77500
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,epoch,Not defined,rest start,POINT,32,32,,C:/Users/test.mp4,161330,161330,,,,,161332,161332,80000,80000
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,sleeping,Not defined,,STATE,40,45,5,C:/Users/test.mp4,230412,232005,,,,,230414,232007,100000,112500
+TEST_DATA,1:01,,Media file,player #1,1000,1001,60,No focal subject,1000,epoch,Not defined,rest end ,STATE,45,50,5,C:/Users/test.mp4,236028,236111,,,,,236030,236113,112500,125000

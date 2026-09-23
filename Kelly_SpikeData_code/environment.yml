@@ -1,0 +1,15 @@
+name: swe4s_project_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.1
+  - matplotlib>=3.8
+  - tqdm
+  - python-dateutil
+  - pip
+  - pip:
+      - pillow
+      - snakemake
+      - graphviz
